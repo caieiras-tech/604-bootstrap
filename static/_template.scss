@@ -1,0 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+    
+section{
+    display: grid;
+    grid-template-areas: 'header header header header'
+                         'aside aside aside aside'
+                         'footer footer footer footer';
+
+    grid-template-rows: 100vh 100vh 100vh;
+}

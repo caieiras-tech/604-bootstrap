@@ -1,10 +1,14 @@
 #nav-milho{
     background-color: yellow !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     a.nav-link{
         color: green;
         font-weight: 900;
         &:hover{
-            text-decoration: underline;
+            text-decoration: underline; 
         }
     }
 }
